@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+backend/venv/
+venv/
+.venv/
+
+# SQLite database — never commit this
+backend/hospital.db
+hospital.db
+
+# Environment secrets
+backend/.env
+.env
+
+# ML generated files — regenerate with generate_data.py
+backend/ml/data/synthetic/
+backend/ml/trained_models/*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
