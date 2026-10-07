@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+*.db
+backend/models/*.joblib
+backend/models/*.json
+backend/sim/results/*.json
+node_modules/
+dist/
+.pytest_cache/
+mlruns/
+.DS_Store
